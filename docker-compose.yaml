@@ -4,5 +4,5 @@ services:
     image: kran1320/kranresumehtml
     ports:
       - "8013:8000"
-    command: "npm start"
+    command: "node index,js"
 

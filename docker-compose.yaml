@@ -3,6 +3,6 @@ services:
   myapp:
     image: napat/node-express
     ports:
-      - "8000:8000"
+      - "8013:8000"
     command: "npm start"
 

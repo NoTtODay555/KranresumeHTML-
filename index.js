@@ -13,5 +13,5 @@ var port = process.env.PORT || 8000;
 app.get('/', function (req, res) {
   res.send('./HTML/index.html')
 });
-app.listen(port);
+app.listen(port, () => console.log('app listening on port'+port));
 exports = module.exports = app;

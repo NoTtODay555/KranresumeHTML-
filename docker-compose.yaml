@@ -1,7 +1,7 @@
 version: '3.5'
 services:
   myapp:
-    image: napat/node-express
+    image: kran1320/kranresumehtml
     ports:
       - "8013:8000"
     command: "npm start"
